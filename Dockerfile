@@ -26,7 +26,6 @@ RUN mkdir -p /app/htdocs /app/error /etc/service/lighttpd /etc/service/php-fpm \
 
 EXPOSE 5000
 
-VOLUME /app
 WORKDIR /app/htdocs
 
 CMD runsvdir -P /etc/service
